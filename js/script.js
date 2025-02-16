@@ -20,9 +20,7 @@ for (const link of articleLinks) {
     });
 }
 
-const optArticleSelector = '.post',
-      optTitleSelector = '.post-title',
-      optTitleListSelector = '.titles';
+const optArticleSelector = '.post';
 
 // Function to handle click events on title links
 function titleClickHandler(event) {
