@@ -122,3 +122,34 @@ body {
     margin: 0 10px 0 0;
   }
 }
+
+.tag-size-1 {
+  font-size: 12px;
+}
+
+.tag-size-2 {
+  font-size: 14px;
+}
+
+.tag-size-3 {
+  font-size: 16px;
+}
+
+.tag-size-4 {
+  font-size: 18px;
+}
+
+.tag-size-5 {
+  font-size: 20px;
+}
+
+.tags.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags.list li {
+  margin: 5px;
+}
