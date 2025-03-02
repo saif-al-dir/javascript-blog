@@ -8,7 +8,7 @@
       "ecmaVersion": 2015
   },
   "globals": {
-      "Handlebars": "readonly"  // Add this line to declare Handlebars as a global variable
+      "Handlebars": false
   },
   "rules": {
       "indent": [

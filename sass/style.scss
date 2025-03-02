@@ -122,3 +122,40 @@ body {
     margin: 0 10px 0 0;
   }
 }
+
+.tags {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; // Allow wrapping
+}
+
+.tags li {
+  margin: 0 10px; // Space between tags
+}
+
+
+.tag-size-1 {
+  font-size: 80%;
+  color: #2196F3;
+}
+
+.tag-size-2 {
+  font-size: 100%;
+  color: #ffc107;
+}
+
+.tag-size-3 {
+  font-size: 120%;
+  color: #88534a;
+}
+
+.tag-size-4 {
+  font-size: 140%;
+  color: #08ff77;
+}
+
+.tag-size-5 {
+  font-size: 160%;
+  color: #ff0000;
+}
