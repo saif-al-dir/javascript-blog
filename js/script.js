@@ -1,3 +1,5 @@
+/* global Handlebars */
+
 'use strict';
 
 const templates = {
